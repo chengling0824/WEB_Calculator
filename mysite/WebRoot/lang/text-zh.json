@@ -1,0 +1,25 @@
+{
+    "main":{
+	"title": "四则运算在线答题系统",
+
+	"history":"查询历史题目",
+	"answer":"做题",
+	"select":"中文简体",
+	"replyOnline":"在线四则训练",
+	"text1":"无论何时何地都可以好好练习，你最好的选择！",
+	"bt1":"开始训练！",
+
+
+
+
+	"login":"鐧诲綍",
+	"register":"娉ㄥ唽",
+	"loginout":"娉ㄩ攢",
+	"number":"棰樼洰鏁伴噺",
+	"radius":"鍙傛暟鑼冨洿",
+	"submit":"寮�濮嬬瓟棰�",
+	"submitAnswer":"鎻愪氦绛旀",
+	"makeOutAgain":"閲嶆柊鍑洪",
+	"REPLYAGAIN":"閲嶆柊绛旈"
+	}
+ }
