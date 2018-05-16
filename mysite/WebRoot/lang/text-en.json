@@ -1,0 +1,24 @@
+{
+    "main":{
+	"title": "ARITHMETIC",
+	"switchUsers":"SWITCHUSERS",
+	"sc":"UploadFile",
+	"history":"HISTORY",
+	"answer":"start!",
+	"select":"ENGLISH",
+	"replyOnline":"Online training",
+	"text1":
+	"ReplyOnline anytime, anywhere, your best choice",
+	"bt1":"START",
+	"title2":"Please choose the question bank that you want:",
+	
+	"numInfo":"Number of topics",
+	"maxNumInfo":"Maximum value",
+	"mimNumInfo":"minimum value",
+	"numOperators":"Operator number",
+	"chengchu":"Multiplication and division",
+	"kuohao":"brackets",
+	"submit":"SUBMIT",
+	"reset":"RESET"
+	}
+}

@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div,h1, h2, h3, h4, h5, h6, p {
+	margin:0; padding:0; border:0; outline:0; font-size:100%;
+}
+table {border-collapse:collapse; border-spacing:0;}
+
+
+/* BODY */
+
+
+html, body{
+	height:100%;
+	}
+
+
+/*============== Container =================*/
+.container{
+	display:table;
+	margin:0 auto 0 auto;
+	width:1100px;
+	position:relative;
+	}
+
+.insider{
+	display:table;
+	margin:0 auto 0 auto;
+	width:auto;
+	position:relative;
+	}
+
+/*============== Header Section =================*/
+.header{
+	float:left;
+	width:100%;
+	height:auto;
+	padding:46px 0 46px 0;
+	}
+
+.header_fix{
+	float:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	padding:16px 0 16px 0;
+	z-index:99999;
+	background:#fff;
+	box-shadow:0 0 5px #000; -webkit-box-shadow:0 0 5px #000;
+	}
+
+h1{
+	font-size: 36px;
+}
+.nav{
+	float:right;
+	margin:0 0 0 0;
+	}
+
+/*.nav .title{
+	display:none;
+	}*/
+
+.nav ul{
+	float:right;
+	margin:0 0 0 0;
+	}
+	
+.nav ul li{
+	float:left;
+	margin:0 0 0 0;
+	}
+
+.nav ul li a{
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:13px;
+	color:#333;
+	font-weight:normal;
+	margin:0 0 0 0;
+	padding:10px 25px 10px 25px;
+	text-transform:uppercase;
+	margin:0 0 0 0;
+	transition:0.5s; -webkit-transition:0.5s;
+	} 
+	
+.nav ul li:last-of-type{
+	float:right;
+	margin:0 0 0 40px;
+	}
+	
+.nav ul li:last-of-type a{
+	background:#187cc2;
+	color:#fff;
+	}
+	
+.nav ul li a:hover{
+	background:#187cc2;
+	color:#fff;
+	}
+	
+.nav ul li:last-of-type a:hover{
+	background:#323232;
+	color:#fff;
+	}
+
+.select{
+	margin-top:  15px;
+	float: right;
+	height: 25px;
+	width: 100%;
+    text-align: right;
+    line-height: 25px;
+    margin-right:20px;  
+}
+	
+/*============== Slider Section =================*/
+.box{
+	background-image: url(../images/bg.jpg);
+	padding:132px;
+	float:left;
+	width:100%;
+	padding:0 0 0 0;
+	height:473px;
+}
+
+.videopreview{
+	margin-top: 90px;
+	margin-left: 140px;
+	white-space: nowrap;
+	width:443px;
+	height:290px;
+	float:left;
+	background:#000;
+	/*margin:0 0 0 0;*/
+}
+.text{
+	float: right;
+	text-align:center;
+	margin-top:170px;
+	margin-right: 210px;
+	white-space: nowrap;
+}
+
+h2.l1{
+	font-size:36px;
+	color:#fff;
+	text-transform:uppercase;
+	margin: 10px;
+	}
+	
+h2.l2{
+	text-align:center;
+	font-size:18px;
+	color:#fff;
+	font-weight:normal;
+	}
+
+.button1{
+	float:right;
+	width:145px;
+	height:41px;
+	margin-top:300px;
+	border:1px solid #fff;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	text-transform:uppercase;
+	line-height:41px;
+	border-radius:5px; -webkit-border-radius:5px; 
+	transition:0.5s; -webkit-transition:0.5s;
+	
+}
+.button1:hover{
+	background:#11598b;
+	border:1px solid #11598b;
+	text-decoration:none;
+	color:#fff;
+}
+.button1 a{
+	color: white;
+	text-decoration:none;
+}
+
+/*============== 上传题目=================*/	
+h2{
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:30px;
+	color:#333;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+	}
+	
+h4{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:11px;
+	color:#909090;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0 0 100px 0;
+	padding:0 0 30px 0;
+	background:url(images/border.png) no-repeat center bottom;
+	}
+		
+.sctm{
+	float:left;
+	width:100%;
+	padding:80px 0 80px 0;
+	}	
+
+.choose{
+	margin-left:400px;
+	margin:20px;
+}
+
+.table1{
+	width: 25%;
+	margin: 100px auto;
+}
+
+li {
+	list-style: none;
+	text-align: left;
+	line-height: 40px;
+}
+/*============== zuoTiInput=================*/
+.zuoTiInput{
+	float:left;
+	width:100%;
+	padding:80px 0 80px 0;
+	}
+
+
+
+.zuoTiInput p{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:14px;
+	color:#4b4b4b;
+	font-weight:normal;
+	margin:0 0 0 0;
+	}
+
+.table2{
+	width: 60%;
+	margin: 10px auto;
+}
+
+.sub{
+	margin: 20px;
+	margin-left: 140px;
+}
+#reset{
+	margin-left: 20px;
+}
+
+.formtips{
+	width: 200px;
+	margin:2px;
+	padding:2px;
+}
+.onError{
+    background:#FFE0E9 url(../images/reg3.gif) no-repeat 0 center;
+	padding-left:25px;
+}
+.onSuccess{
+    background:#E9FBEB url(../images/reg4.gif) no-repeat 0 center;
+	padding-left:25px;
+}
+.high{
+    color:red;
+}
+
+/*============== repleOnLine=================*/
+.replyOnLine{
+	border:2px solid red;
+	width:80%;
+	/*width: 600px;*/
+	height:500px;
+	margin: 40px auto;
+}
+
